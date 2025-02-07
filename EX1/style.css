@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+}
+.formBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    max-width: 50%;
+    padding: 25px 50px;
+    background-color: rgb(164, 238, 238);
+    border-radius: 15px;
+
+
+}
+.form *{
+    margin-top: 15px;
+}
+button{
+    margin-top: 15px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(112, 190, 241);
+    border-radius: 15px;
+    align-self: center;
+}
+input{
+    height: 30px;
+}
+.err{
+    border: 2px solid rgb(188, 154, 41);
+    border-radius: 10%;
+}
+.success{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:30% ;
+    margin: auto;
+    padding: 75px 50px;
+    background-color: rgb(216, 153, 107);
+    border: 2px solid rgb(237, 146, 9);
+}
